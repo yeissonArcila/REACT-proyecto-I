@@ -16,8 +16,8 @@ export const Carreras = () => {
   }, []);
 
   return (
-    <div>
-      
+    <div id="carreras">
+      {Carreras.map}
     </div>
   );
 };

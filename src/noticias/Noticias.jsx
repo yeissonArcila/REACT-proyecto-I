@@ -27,9 +27,7 @@ const Noticias = () => {
                 <img src={noti.image} alt="" className="imagen" />
               </div>
               <div>
-                <a href="#">
-                  ver mas <p className="texto">{noti.description}</p>
-                </a>
+                 <p className="texto">{noti.description}</p>
               </div>
             </div>
           </section>
